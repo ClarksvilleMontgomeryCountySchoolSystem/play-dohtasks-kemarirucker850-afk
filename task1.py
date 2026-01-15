@@ -1,4 +1,4 @@
-from idlelib.pyshell import fix_x11_paste
+
 
 
 def main():
@@ -10,8 +10,8 @@ def main():
     # == Is used to test for equality.
     if choice1 == "big":
         print("2) Flatten the ball into a wide disc.\n")
-    #else:
-    print("2) Keep it as a ball.\n")
+    else:
+        print("2) Keep it as a ball.\n")
     print("3) Roll four small pieces into short ropes.\n")
     print("4) Attach them to the bottom.\n")
     print(f"5) Use {color1} to roll a small ball.\n")
